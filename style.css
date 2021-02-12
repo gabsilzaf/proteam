@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+
+table, tr, th, td {
+    text-align: center !important;
+}
+
+
+#homeproteam #usersection,
+#homeproteam #teamsection,
+#homeproteam #clubsection,
+#homeproteam #compsection,
+#homeproteam #compsection2,
+#homeproteam #compsection3 {
+    display: none !important;
+}
+
+#usersection,
+#teamsection,
+#clubsection,
+#compsection,
+#compsection2,
+#compsection3 {
+    display: block;
+}
+
+@media all and (min-width:992px) {
+    .carousel-caption,
+    #compsection .carousel-caption {
+        margin-top: 0 !important;
+    }
+}
+
+.title h3 {
+    margin: 50px 0;
+}
+
+.editbttn, .delbttn {
+    margin: 25px 0;
+}
+
+.dashbutton {
+    padding: 60px 0px !important;
+    margin: 35px;
+    min-width: 200px;
+    width: 200px;
+    max-width: 300px;
+    min-height: 150px;
+    height: 150px;
+    max-height: 150px;
+}
+
+#showdbf {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
+#section2.section-container {
+    padding: 0 0 60px 0;
+}
+
+#compsection .carousel-caption {
+    margin-top: 0px;
+}
+
+#compeditdel .editbttn, 
+#compeditdel .delbttn {
+    margin: 0 !important;
+}
+
+@media screen and (min-width: 992px) {
+    .hero-full-container,
+    .background-image-container {
+        padding: 75px 0 !important;
+    }
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+@media screen and (min-width: 992px) {
+    .container {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 0px 75px !important;
+    }
+}
+
